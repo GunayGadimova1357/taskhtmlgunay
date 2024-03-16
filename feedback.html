@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<htmml>
+    <head> 
+        <p><h1>My feedback from</h1></p>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <ul>
+                    <li><p> 
+                        <label>Name:
+                        <input name="Name">
+                    </label>
+                    </p></li>
+                    <li><p>
+                        <label>Email:
+						<input type="email" name="email">
+					</label>
+                    </p></li>
+                    <li><p>  
+                        <label>Password:
+                        <input type="password" name="password">
+
+                    </label></p></li>
+                </ul>
+                <ul>
+                    <li>Please check all the emotions that apply to you:
+                    <ul> 
+                        <li><label for="e1">Angry:</label>
+                        <input type="checkbox" name="e1"></li>
+                         <li><label for="e2">Sad:</label>
+                         <input type="checkbox" name="e2"></li>
+                         <li><label for="e3">Happy:</label>
+                         <input type="checkbox" name="e3"></li>
+                         <li><label for="e4">Ambivalent:</label>
+                         <input type="checkbox" name="e4"></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>How satisfied were you with our service?</li>
+                    <ul><li><label for="vsat">Very satisfied</label> <input type="radio" name="satisfaction"></li>
+                        <li><label for="sat">Satisfied</label> <input type="radio" name="satisfaction"></li>
+                        <li><label for="dcare">Didn't care</label> <input type="radio" name="satisfaction"></li>
+                        <li><label for="disat">Dissatisfied</label> <input type="radio" name="satisfaction"></li>
+                        <li><label for="vdisat">Very dissatisfied</label> <input type="radio" name="satisfaction"></li>
+
+                    </ul>
+                    <li><label for="comments">Further comments:</label> 
+                    <textarea name="comments" cols="25" rows="3"></textarea></li>
+                </ul>
+                <ul>
+                    <li><label for="photo">Bio photo:</label> 
+                    <input type="file" name="photo"></li>
+                    <li><label for="location">Location visited:</label>
+                    <select name="location">
+                      <option value="">Select location</option>
+                      <option value="baku">Baku</option>
+                    </select></li>
+
+                </ul>
+                <ul>
+                    <li><button type="submit">Submit</button></li>
+
+                </ul>
+
+            </fieldset>
+        </form>
+    </body>
+</htmml>
